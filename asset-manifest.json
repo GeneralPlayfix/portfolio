@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a98226d4.css",
+    "main.js": "/portfolio/static/js/main.cfe891dc.js",
+    "static/media/Florian_Fournier_CV.pdf": "/portfolio/static/media/Florian_Fournier_CV.833229967a39088f4dc8.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.a98226d4.css.map": "/portfolio/static/css/main.a98226d4.css.map",
+    "main.cfe891dc.js.map": "/portfolio/static/js/main.cfe891dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a98226d4.css",
+    "static/js/main.cfe891dc.js"
+  ]
+}
