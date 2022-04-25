@@ -2,10 +2,11 @@ import React from 'react';
 import { Link } from 'react-scroll'
 import CV from "../assets/Florian_Fournier_CV.pdf"
 import { BsLinkedin, BsGithub, BsStackOverflow } from 'react-icons/bs';
+import IMG from "../img/image.png";
 const Home_page = () => {
     return (
         <section id='home'>
-            <div class="container">
+            <div className="container">
                 <div className='sub-container'>
                     <div>
                         <p>Hey, je suis</p>
@@ -24,7 +25,7 @@ const Home_page = () => {
                 </div>
                 <div className='image-container'>
                     <div className="image">
-                        <img src="./img/image.png" alt="" />
+                        <img src={IMG} alt="profil-pic" />
                     </div>
                 </div>
             </div>
