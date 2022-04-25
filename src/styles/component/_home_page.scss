@@ -1,0 +1,97 @@
+#home {
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        .sub-container{
+            width: 60%;
+            height: 99vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            div:first-child{
+                p{
+                    text-align: center;
+                    font-size: 20px;
+                }
+                h1{
+                    text-align: center;
+                    font-size: 40px;
+                    color: $font-color-2;
+                }
+                h3{
+                    text-align: center;
+                    font-size: 30px;
+                }
+            }
+            div:nth-child(2){
+                display: flex;
+                justify-content:center;
+                a{
+                    margin-right: 3%;
+                    margin-left: 3%;
+                    color: $font-color;
+                    padding: 10px 14px;
+                    font-size: 18px;
+                    border-radius: 5px;
+                    border: 1px solid $font-color;
+                }
+                a:nth-child(2){
+                    color: $font-color-2;
+                    background-color: $font-color;
+                }
+                a:nth-child(1):hover{
+                    color: $font-color-2;
+                    background-color: $font-color;
+                }
+                a:nth-child(2):hover{
+                    background-color: $font-color-2;
+                    color: $font-color;
+                    cursor: pointer;
+                    border: 1px solid $font-color-2;
+                }
+                svg{
+                    font-size: 30px;
+                }
+            }
+            div:nth-child(3){
+                display: flex;
+                justify-content: space-evenly;
+                a{
+                    font-size: 18px;
+                    color: $font-color;
+                }
+                &:hover{
+                    cursor: pointer;
+                }
+                svg{
+                    font-size: 30px;
+                }
+                svg:hover{
+                    color: $font-color-2;
+                }
+            }
+        }
+        .image-container{
+            // background-color: red;
+            height: 99vh;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .image{
+                // background-color: $card;
+                max-height: 70%;
+                background: linear-gradient($card, transparent);
+                box-shadow: 6px 6px 22px $black;
+                border-radius: 12rem 12rem 0 0;
+                overflow: hidden;
+                img{
+                    position: relative;
+                    object-fit: cover;
+                }    
+            }
+        }
+    }
+}
