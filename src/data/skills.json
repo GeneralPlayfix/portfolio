@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1",
+    "name": "Javascript (Node.js)",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png",
+    "level": "Intermédiaire",
+    "type": "1"
+  },
+  {
+    "id": "2",
+    "name": "React",
+    "img": "https://www.datocms-assets.com/45470/1631110818-logo-react-js.png",
+    "level": "Base",
+    "type": "2"
+  },
+  {
+    "id": "3",
+    "name": "HTML",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
+    "level": "Avancé",
+    "type": "1"
+  },
+  {
+    "id": "4",
+    "name": "CSS3",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+    "level": "Intermédiaire",
+    "type": "1"
+  },
+  {
+    "id": "5",
+    "name": "SASS",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png",
+    "level": "Intermédiaire",
+    "type": "1"
+  },
+  {
+    "id": "6",
+    "name": "PHP",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png",
+    "level": "Intermédiaire",
+    "type": "1"
+  },
+  {
+    "id": "7",
+    "name": "C#",
+    "img": "https://www.axopen.com/static/e9292cd32c498463bec4b07ecd6aa699/1200px_C_Sharp_logo_svg_16fb904a2f.png",
+    "level": "Base",
+    "type": "1"
+  },
+  {
+    "id": "8",
+    "name": "Flutter",
+    "img": "https://www.ideematic.com/wp-content/uploads/2020/07/flutter_logo.png",
+    "level": "Base",
+    "type": "2"
+  },
+  {
+    "id": "9",
+    "name": "Boostrap",
+    "img": "https://app.ibracilinks.com/assets/images/blog/posts/1605445072.png",
+    "level": "Base",
+    "type": "2"
+  },
+  {
+    "id": "10",
+    "name": "Symfony",
+    "img": "https://www.a5sys.com/wp-content/uploads/2021/10/symfony_logo_vertical.png",
+    "level": "Base",
+    "type": "2"
+  },
+  {
+    "id": "11",
+    "name": "Github",
+    "img": "https://logos-marques.com/wp-content/uploads/2021/03/GitHub-Logo.png",
+    "level": "Intermédiaire",
+    "type": "3"
+  },
+  {
+    "id": "12",
+    "name": "SQL",
+    "img": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png",
+    "level": "Intermédiaire",
+    "type": "5"
+  },
+  {
+    "id": "13",
+    "name": "Merise",
+    "img": "https://www.sgmaroc.com/wp-content/uploads/2021/01/no-logo.png",
+    "level": "Intermédiaire",
+    "type": "5"
+  },
+  {
+    "id": "14",
+    "name": "Docker",
+    "img": "https://jolicode.com/media/original/2013/10/homepage-docker-logo.png",
+    "level": "Intermédiaire",
+    "type": "3"
+  },
+  {
+    "id": "15",
+    "name": "Linux",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png",
+    "level": "base",
+    "type": "3"
+  },
+  {
+    "id": "16",
+    "name": "Gitlab (CI/CD)",
+    "img": "https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/155/formation-gitlab.png",
+    "level": "base",
+    "type": "3"
+  },
+  {
+    "id": "17",
+    "name": "Anglais",
+    "img": "https://neo-form.fr/wp-content/uploads/2019/11/formation-anglais.png",
+    "level": "Opérationnel",
+    "type": "4"
+  },
+  {
+    "id": "18",
+    "name": "Espagnol",
+    "img": "https://www.mjcescalquens.fr/wp-content/uploads/2018/07/espagnol-pixabay.comfrespagne-drapeau-h%C3%A9raldique-red-2906824.png",
+    "level": "Notions",
+    "type": "4"
+  },
+  {
+    "id": "19",
+    "name": "Visual Studio Code",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png",
+    "level": "Base",
+    "type": "3"
+  },
+  {
+    "id": "20",
+    "name": "Suite intellij",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/640px-IntelliJ_IDEA_Icon.svg.png",
+    "level": "Base",
+    "type": "3"
+  }
+]

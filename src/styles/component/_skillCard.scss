@@ -1,0 +1,53 @@
+.skillCard{
+    margin-bottom: 10%;
+    color: $font-color;
+    div{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        h3{
+            font-size: $p-font-size;
+        }
+        img{
+            width: 25px;
+            object-fit: cover;
+        }
+    }
+    p{
+        font-style: oblique;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .skillCard{
+        div{
+            h3{
+                font-size: $p-responsive-font-size;
+            }  
+        }
+        p{
+            font-size: $p-mobile-font-size;
+        }
+    }
+  }
+  
+  
+  @media screen and (max-width:850px) {
+    .skillCard{
+        margin-top: 2%;
+
+        margin-bottom: 1%;
+        div{
+            h3{
+                font-size: $p-mobile-font-size;
+            }
+         }
+    }
+  }
+  
+  @media screen and (max-width:650px) {
+    .skillCard{
+    }
+  }

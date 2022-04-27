@@ -5,9 +5,15 @@ $button-2: #4db5ff;
 $font-color: #4db5ff;
 $font-color-2: #fff;
 $black: #060d2c;
-$p-font-size:20px;
 $h1-font-size:40px;
+$responsive-h1-font-size:35px;
+$h1-mobile-font-size:28px;
+$h2-font-size:25px;
 $h3-font-size:30px;
+$h3-mobile-font-size:18px;
+$p-font-size:20px;
+$p-responsive-font-size:15px;
+$p-mobile-font-size:12px;
 * {
 margin: 0;
 padding: 0;
@@ -22,9 +28,17 @@ text-decoration: none;
 
 body  {
     background-color: $bg;
+    
 }
 
-
+// .sections{
+//     scroll-snap-type: y mandatory;
+//     height: 100vh;
+//     overflow-y: scroll;
+//     > *{
+//         scroll-snap-align: center;
+//     }
+// }
 section{
     height: 100vh;
     margin-bottom: 2%;  
@@ -35,7 +49,8 @@ section{
         width: 90%;
         height: fit-content;
     }
-}
+}    
+
 @media screen and (max-width:1024px) {
     section{
         .container{

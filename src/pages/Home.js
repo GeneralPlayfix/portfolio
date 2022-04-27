@@ -8,12 +8,14 @@ import Training from '../components/Training';
 const Home = () => {
     return (
         <>
-            <Header />
-            <Home_page />
-            <Training />
-            <Skills />
-            <Experience />
-            <Contact />
+            <div className='sections'>
+                <Header />
+                <Home_page />
+                <Training />
+                <Skills />
+                <Experience />
+                <Contact />
+            </div>
         </>
     );
 };

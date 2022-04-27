@@ -52,7 +52,7 @@
                     border: 1px solid $font-color-2;
                 }
                 svg{
-                    font-size: 30px;
+                    font-size: $h3-font-size;
                 }
             }
             div:nth-child(3){
@@ -67,7 +67,7 @@
                     cursor: pointer;
                 }
                 svg{
-                    font-size: 30px;
+                    font-size: $h3-font-size;
                 }
                 svg:hover{
                     color: $font-color-2;
@@ -82,7 +82,6 @@
             justify-content: center;
             align-items: center;
             .image{
-                position: absolute;
                 width: 22rem;
                 height: 30rem;
                 display: flex;
@@ -110,22 +109,22 @@
                 width: 50%;
                 div:first-child{
                     p{
-                        font-size: 15px;
+                        font-size:$p-responsive-font-size;
                     }
                     h1{
-                        font-size: 35px;
+                        font-size: $responsive-h1-font-size;
                     }
                     h3{
-                        font-size: 25px;
+                        font-size:$h2-font-size;
                     }
                 }
                 div:nth-child(2){
                     a{
-                        font-size: 15px;
+                        font-size: $p-responsive-font-size;
                     }
                 }
                 div:nth-child(3) svg{
-                    font-size: 25px;
+                    font-size: $h2-font-size;
                 }
                
             }
@@ -161,22 +160,22 @@
             .sub-container{
                 div:first-child{
                     p{
-                        font-size: 12px;
+                        font-size: $p-mobile-font-size;
                     }
                     h1{
-                        font-size: 28px;
+                        font-size: $h1-mobile-font-size;
                     }
                     h3{
-                        font-size: 18px;
+                        font-size: $h3-mobile-font-size;
                     }
                 }
                 div:nth-child(2){
                     a{
-                        font-size: 12px;
+                        font-size: $p-mobile-font-size;
                     }
                 }
                 div:nth-child(3) svg{
-                    font-size: 20px;
+                    font-size: $p-font-size;
                 }
                
             }

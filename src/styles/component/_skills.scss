@@ -1,0 +1,140 @@
+#skills{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    .title{
+      font-size: $h2-font-size;
+      color: $font-color-2;
+    }
+    .container{
+      .subContainer:first-child{
+        margin-bottom: 1%;
+        font-size: $h3-font-size;
+      }
+      .subContainer:last-child{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+        .card{
+          display: flex;
+          border-radius: 8px;
+          gap: 1rem;                   
+          width: 50%;
+        }
+        .card:first-child{
+          flex-direction: column;
+          .subElement{
+            padding: 2%;
+            border-radius: 5px;
+            background-color: $card;
+            box-shadow: 6px 6px 15px $black;
+            .subCard{
+              color:$font-color-2;
+              columns: 2;
+            }
+          }
+          
+        }
+        .card:last-child{
+          flex-direction: row;
+          .subCard{
+            border-radius:8px;
+            color: $font-color-2;
+          } 
+          .subCard:first-child{
+            padding: 2%;
+            box-shadow: 6px 6px 15px $black;
+            background-color: $card;
+            width: 65%;
+          }
+          .subCard:last-child{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+            .cardElement{
+              padding: 2%;
+              box-shadow: 6px 6px 15px $black;
+              height: 50%;
+              background-color: $card;
+              border-radius: 8px;
+              padding: 2%;
+              h1:first-child{
+                margin-bottom: 2%;
+              }
+            }
+          }
+        }
+       
+      }
+    }
+}
+
+@media screen and (max-width:1024px) {
+  #skills{
+    .container{
+     margin: 1rem;
+
+    }
+    .title{
+      font-size: $p-font-size;
+    }
+    .mySkills{
+      font-size: $h3-font-size;
+    }
+  }
+}
+
+@media screen and (max-width:850px) {
+  #skills{
+    .mySkills{
+      font-size: $h2-font-size;
+    }
+    .container {
+      .subContainer:last-child{
+        display: flex;
+        flex-direction: column;
+        .card {
+          display: flex;
+          width: 100%;
+        }
+        .card:first-child{
+          flex-direction: row;
+          .subElement{
+            width: 50%;
+          }
+        }
+        .card:last-child{
+          .subCard:first-child {
+            >*:not(:first-child){
+              columns: 2;
+            }
+          }
+          .subCard:last-child{
+            .cardElement{
+              >*:not(:first-child){
+                columns: 2;
+
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width:650px) {
+  #skills{
+    .mySkills{
+      font-size: $p-font-size;
+    }
+    .title {
+      font-size: $p-responsive-font-size;;
+    }
+  }
+}
+
