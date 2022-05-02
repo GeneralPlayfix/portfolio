@@ -1,0 +1,134 @@
+.ExperienceCard{
+    width: 25%;
+    background-color: $card;
+    border-radius: 8px;
+    padding: 1rem;
+    h2{
+        font-size: $h3-font-size;
+        color: $font-color-2;
+    }
+    .company{
+        font-size: $p-font-size;
+        font-style: oblique;
+    }
+    .languages{
+        margin-top: 2%;
+        font-size: $p-responsive-font-size;
+        font-weight: bold;
+    }
+    .buttons-2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        > *{
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: $card;
+            color: $font-color;
+            font-size: $p-responsive-font-size;
+            outline: none;
+            border: 1px solid $button-1;
+            padding: 3px 6px;
+            margin-top: 2%;
+            box-shadow: 0 0 10px $button-1;
+        }
+        > *:first-child{
+            background-color: $button-2;
+            color: $font-color-2;
+        }
+        > *:hover{
+            background-color: $button-1;
+            color: $font-color-2;
+        }
+
+    }
+   
+    .description{
+        height: 100px;
+        margin-top: 5px;
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;  /* Firefox */
+        overflow-y: scroll;
+        padding:5px;
+        text-align: justify;
+        text-justify: inter-word;
+        line-height: 20px;    
+        box-shadow: 0 0 10px $button-1;
+        font-size: $p-responsive-font-size;
+    }
+    .description::-webkit-scrollbar { 
+        display: none;  /* Safari and Chrome */
+    }
+}
+@media screen and (max-width:1280px) {
+    .ExperienceCard{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .ExperienceCard{
+        width: 45%;
+        h2{
+            font-size: $h2-font-size;
+        }
+        .company{
+            font-size: $p-responsive-font-size;
+        }
+    }
+}
+
+@media screen and (max-width:850px) {
+    .ExperienceCard{
+        width: 48%;
+    }
+}
+@media screen and (max-width:650px) {
+    .ExperienceCard {
+        h2{
+            font-size: $h3-mobile-font-size;
+        }
+        .company{
+            font-size: $p-mobile-font-size;
+        }
+        .description{
+            height: 75px;
+            font-size: $p-mobile-font-size;
+        }
+        .languages{
+            font-size: $p-mobile-font-size;
+            font-weight: normal;
+        }
+        .buttons-2 {
+            > * {
+                font-size: $p-mobile-font-size;
+            }
+        }
+    }
+}
+@media screen and (max-width:435px) {
+    .ExperienceCard{
+        padding: 0.2rem;
+        width: 45%;
+        // .description {
+        //     display: none;
+        // }
+        .buttons-2{
+
+            display: flex;
+            justify-content: row;
+            flex-wrap: nowrap;
+            -ms-overflow-style: none;  /* Internet Explorer 10+ */
+            scrollbar-width: none;  /* Firefox */
+            overflow-x: scroll;
+            > *{
+                padding: 0px 0px;
+                font-size: 10px;
+                box-shadow: 0 0 10px $button-1;
+            }
+        }
+      
+    }
+}

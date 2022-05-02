@@ -1,6 +1,6 @@
 #experience{
     .container{
-        margin-top: 5%;
+        margin-top: 1%;
         .buttons{
             display: flex;
             flex-direction: row;
@@ -36,18 +36,26 @@
                     padding:10px;
                     background:$card;
                     text-align:center;
-                    @include magic-border(2px,$font-color, 0.3s, 0);
-                    // font-family:'Oswald';
-                    margin-bottom:1%;
+                    margin-bottom:1rem;
+                    font-size: $h2-font-size;
                     flex-grow:1;
                     cursor:pointer;
                     color: $font-color;
-                    &:nth-of-type(2){
-                      @include magic-border(2px, $font-color, 0.2s, 1);
-                    }
-                    &:nth-of-type(3){
-                        @include magic-border(2px, $font-color, 0.2s, 0);
-                      }
+              }
+              a:not(.active) {
+                @include magic-border(2px,$font-color, 0.3s, 0);
+                // font-family:'Oswald';
+      
+                &:nth-of-type(2){
+                  @include magic-border(2px, $font-color, 0.2s, 1);
+                }
+                &:nth-of-type(3){
+                    @include magic-border(2px, $font-color, 0.2s, 0);
+                  }
+              }
+              .active{
+                background-color: $font-color;
+                color: $font-color-2;
               }
                     //   @mixin magic-border-mask($width, $duration, $background, $direction){
             //     position:relative;
@@ -78,11 +86,40 @@
             //   }
     
         }
-        .content {
-            background-color: $card;
+        .content-2 {
+            // background-color: red;
             width: 100%;
-            border-radius: 5px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 1rem;
+            > *{
+              text-align: center;
+            }
         }
     }
-  
+}
+
+@media screen and (max-width:1024px) {
+  #experience{
+   .container{
+    .buttons {
+      a{
+        font-size: $p-font-size;
+      }
+    }
+   }
+  }
+}
+
+@media screen and (max-width:650px) {
+  #experience{
+    .container{
+     .buttons {
+       a{
+         font-size: $p-responsive-font-size;
+       }
+     }
+    }
+   }
 }

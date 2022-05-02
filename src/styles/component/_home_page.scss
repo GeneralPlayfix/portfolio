@@ -35,21 +35,22 @@
                     padding: 10px 14px;
                     font-size: 18px;
                     border-radius: 5px;
-                    border: 1px solid $font-color;
+                    border: 1px solid $button-2;
                 }
                 a:nth-child(2){
                     color: $font-color-2;
-                    background-color: $font-color;
+                    background-color: $button-1;
+                    border: 1px solid $button-1;
                 }
                 a:nth-child(1):hover{
                     color: $font-color-2;
-                    background-color: $font-color;
+                    background-color: $button-2;
                 }
                 a:nth-child(2):hover{
-                    background-color: $font-color-2;
-                    color: $font-color;
+                    background-color: $button-2;
+                    color: $font-color-2;
                     cursor: pointer;
-                    border: 1px solid $font-color-2;
+                    border: 1px solid $button-2;
                 }
                 svg{
                     font-size: $h3-font-size;

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "name": "Site Hotellerie",
+    "company": "Dorian ROULET",
+    "images": "",
+    "description": "Site d'hotellerie basique fait en php qui permet d'effectuer une révervation, la modifier ou encore la supprimer. Le client pourra également ajouter une chambre en favoris. Dans le cas où la personne est un administrateur, elle pourra voir les différentes statistiques qui correspondent à chacune des chambres mais aussi administrer les différents utilisateurs et chambres (les mots de passe étant bien évidemment haché et cachés)",
+    "projectType": "1",
+    "websiteLink": "https://www.dorian-roulet.com/testStage-master/",
+    "sourceCodeLink": "",
+    "languages": "PHP|HTML5|CSS3|SQL"
+  },
+  {
+    "id": "2",
+    "name": "Site d'anime",
+    "company": "Dorian ROULET",
+    "images": "",
+    "description": "Site qui permet de regarder des animés qui ont été récupérés au préalable par un script de web scraping codé en javascript, plus précisément avec node.js.",
+    "projectType": "1",
+    "websiteLink": "https://www.dorian-roulet.com/testStage-master/anime",
+    "sourceCodeLink": "",
+    "languages": "Javascript|PHP|HTML5|CSS3|MYSQL"
+  },
+  {
+    "id": "3",
+    "name": "Hotel Neptune",
+    "company": "EPSI",
+    "images": "",
+    "description": "Premier site complet fait en PHP dans le cadre de l'EPSI. Le site permet de gérer une connexion mais aussi les droits des différents utilisateurs avec l'affichage que de certaines parties du site si l'utilisateur n'a pas le droit suffisant. Ce site permet à l'utilisateur de réaliser une fausse réservation, la modifier et la supprimer.",
+    "projectType": "2",
+    "websiteLink": "",
+    "sourceCodeLink": "https://github.com/GeneralPlayfix/ProjetHotelNeptuneEpsi",
+    "languages": "PHP|HTML5|CSS3|MYSQL"
+  },
+  {
+    "id": "4",
+    "name": "Bot clachoufoufou",
+    "company": "Personnel",
+    "images": "",
+    "description": "Ce bot discord a été codé par mes soins et permet de poster sur discord les différentes sorties de la team de traduction bénévole dans laquelle je suis afin d'avertir les différentes personnes qui nous suivent de la sortie d'un de nos chapitres. Pour ce faire le bot récupère des données sur le site sur lequel la team poste ses chapitres via un script de web scraping. Le bot à également d'autres fonctionnalités comme un slider des différents projets, mais elles ne sont pas disponibles au grand public.",
+    "projectType": "3",
+    "websiteLink": "",
+    "sourceCodeLink": "https://github.com/GeneralPlayfix/Clachoufoufou",
+    "languages": "Node.js"
+  }
+]
