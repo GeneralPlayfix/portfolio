@@ -1,5 +1,4 @@
 import React from 'react';
-import cascade from '../img/cascade.jpg'
 const ExperienceCard = (props) => {
     const { experience } = props
     return (
